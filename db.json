@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "",
+      "username": "Paul Pessoa",
+      "handle": "paulmspessoa",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/paulmspessoa",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/paulmspessoa",
+      "followers": [
+        {
+          "user_uuid": "cfc41fa5-210d-4fdb-a9f0-18bc78284590"
+        },
+        {
+          "user_uuid": "cd595347-9fef-4216-8ae2-bdd74f065dc7"
+        },
+        {
+          "user_uuid": "aa2902ac-b250-48bd-af47-0b8dcc141b8d"
+        }
+      ]
+    }
+  ]
+}
