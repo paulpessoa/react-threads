@@ -1,9 +1,9 @@
 const ThreadInput = () => {
     return (
       <>
-        <p>pppp</p>
+        <p></p>
         <input/>
-        <button>Submit</button>
+        <button className="primary">Post</button>
       </>
     );
   }
