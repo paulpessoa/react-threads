@@ -13,11 +13,12 @@ const App = () => {
   const [threads, setThreads] = useState(null);
   const [viewThreadsFeed, setViewThreadsFeed] = useState(true);
   const [filteredThreads, setFilteredThreads] = useState(null);
+  const userId = "aa2902ac-b250-48bd-af47-0b8dcc141b8d"
 
   const getUser = async () => {
     try {
       const response = await api.get(
-        `users?user_uuid=aa2902ac-b250-48bd-af47-0b8dcc141b8d`
+        `/users?user_uuid=${userId}`
       );
       console.log("MASSA USER", response.data[0]);
 
@@ -30,7 +31,7 @@ const App = () => {
   const getThreads = async () => {
     try {
       const response = await api.get(
-        `threads?thread_from=aa2902ac-b250-48bd-af47-0b8dcc141b8d`
+        `/threads?thread_from=${userId}`
       );
       console.log("SHOWW THREADS", response.data);
       setThreads(response.data);

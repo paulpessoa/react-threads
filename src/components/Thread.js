@@ -9,7 +9,7 @@ const Thread = ({user, filteredThread }) => {
       <div className="text-container">
         <div>
           <div className="img-container">
-            <img src={user.image} alt="profile avatar" />
+            <img src={user.img} alt="profile avatar" />
           </div>
           <div>
             <p> <strong>{user.handle}</strong> </p>
