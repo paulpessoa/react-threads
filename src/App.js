@@ -6,6 +6,9 @@ import Feed from "./components/Feed";
 import { useState, useEffect } from "react";
 
 const App = () => {
+
+  const api = process.env.REACT_APP_API ?? process.env.REACT_APP_API_LOCAL
+
   const [user, setUser ] = useState(null)
   const [threads, setThreads ] = useState(null)
   const [viewThreadsFeed, setViewThreadsFeed ] = useState(true)
@@ -15,7 +18,7 @@ const App = () => {
 
   const getUser = async () => {
     try {
-      const response = await fetch (`http://localhost:3000/users?user_uuid=${userId}`)
+      const response = await fetch (`${api}users?user_uuid=${userId}`)
       const data = await response.json()
       setUser(data[0])
     } catch(error) {
@@ -25,7 +28,7 @@ const App = () => {
 
   const getThreads = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/threads?trhead_from=${userId}`)
+      const response = await fetch(`${api}threads?trhead_from=${userId}`)
       const data = await response.json()
       setThreads(data)
   } catch(error) {
