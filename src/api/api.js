@@ -1,11 +1,10 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: "https://react-threads-api.vercel.app/api/",
   headers: {
     'Content-Type': 'application/json',
-    'x-api-key': `${process.env.REACT_APP_API_KEY}`,
-    'Authorization': `Bearer ${process.env.REACT_APP_API_KEY}`
+    'x-api-key': 123456
   }
 });
 
