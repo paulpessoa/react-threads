@@ -75,3 +75,9 @@ https://imgur.com/
 
 ### uuid
 https://www.uuidgenerator.net/
+
+### Symbols
+https://symbl.cc/pt/
+
+### Icons
+https://iconmonstr.com/
