@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 const App = () => {
 
-  const api = https://react-threads-api.vercel.app/"
+  const api = "https://react-threads-api.vercel.app/"
 
   const [user, setUser ] = useState(null)
   const [threads, setThreads ] = useState(null)
