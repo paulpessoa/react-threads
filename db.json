@@ -17,7 +17,7 @@
           "user_uuid": "cd595347-9fef-4216-8ae2-bdd74f065dc7"
         },
         {
-          "user_uuid": "aa2902ac-b250-48bd-af47-0b8dcc141b8d"
+          "user_uuid": "aa2902ac-b250-48bd-af4d-0b8dcc141b8d"
         }
       ]
     },
@@ -235,7 +235,7 @@
   "threads": [
     {
       "id": 1,
-      "timestamp": "Wed Jul 12 2023 19:13:08 GMT-0300 (Brasilia Standard Time)",
+      "timestamp": "Wed Jul 12 2023 11:13:08 GMT-0300 (Brasilia Standard Time)",
       "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
       "thread_to": null,
       "reply_to": null,
@@ -251,20 +251,36 @@
     },
     {
       "id": 2,
+      "timestamp": "Wed Jul 10 2023 21:05:08 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": "2309c9be-e1bd-4e42-bafc-847486338f6c",
+      "reply_to": 4,
+      "text": "Hello world (of threads)",
+      "likes": [
+        {
+          "uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17"
+        },
+        {
+          "uuid": "2309c9be-e1bd-4e42-bafc-847486338f6c"
+        }
+      ]
+    },
+    {
+      "id": 3,
       "timestamp": "Wed Jun 10 2023 11:13:08 GMT-0300 (Brasilia Standard Time)",
       "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
-      "thread_to": "7d63b079-25db-4014-8f1f-91d3fd20fc17",
+      "thread_to": "cd595347-9fef-4216-8ae2-bdd74f065dc7",
       "reply_to": 1,
       "text": "Second threads",
       "likes": []
     },
     {
-      "id": 3,
-      "timestamp": "Wed May 18 2023 22:43:08 GMT-0300 (Brasilia Standard Time)",
+      "id": 4,
+      "timestamp": "Wed May 28 2023 02:43:08 GMT-0300 (Brasilia Standard Time)",
       "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
-      "thread_to": "2309c9be-e1bd-4e42-bafc-847486338f6c",
-      "reply_to": 2,
-      "text": "Oh my Threads",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Agora vai",
       "likes": []
     }
   ]
