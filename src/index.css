@@ -122,3 +122,8 @@ button.primary {
 .feed-card .img-container img {
   height: 110%;
 }
+
+.feed {
+  height: 400px;
+  overflow-y: scroll;
+}
