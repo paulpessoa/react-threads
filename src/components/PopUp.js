@@ -1,7 +1,11 @@
+import PopUpThread from './PopUpThread'
+import ThreadInput from './ThreadInput'
+
 const PopuUp = () => {
     return (
       <div className="popup">
-        PopuUp 
+        <PopUpThread/>
+        <ThreadInput/>        
       </div>
     );
   }
